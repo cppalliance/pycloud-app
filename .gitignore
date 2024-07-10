@@ -1,7 +1,11 @@
 build
 dist
+*.egg-info
+*.egg
+*.pyc
+*.pyo
 
-cli.spec
+*.spec
 
 .venv
 .vscode
