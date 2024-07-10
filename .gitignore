@@ -6,3 +6,4 @@ cli.spec
 .venv
 .vscode
 .idea
+.envrc
