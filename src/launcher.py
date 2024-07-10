@@ -8,7 +8,7 @@ import time
 
 import background
 
-import cli
+from cli import main as cli_main
 from api.server import run_server
 
 
@@ -32,7 +32,7 @@ def main():
     # Wait for the web server to start up.
     time.sleep(0.5)
     # Launch the CLI.
-    cli.main()
+    cli_main()
 
 
 if __name__ == "__main__":

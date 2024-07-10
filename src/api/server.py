@@ -1,6 +1,6 @@
 import uvicorn
 
-from .constants import PORT, HOST
+from constants import PORT, HOST
 from .app import app
 
 

@@ -9,7 +9,7 @@ init: create-virtualenv
 	.venv/bin/uv pip install -r requirements.txt
 
 build: init
-	.venv/bin/pyinstaller --onefile launcher.py
+	.venv/bin/pyinstaller --onefile src/launcher.py
 	echo "Binary is in dist/launcher"
 
 server: init

@@ -15,7 +15,7 @@ goto :eof
 
 :build
 call :init
-call .venv\Scripts\pyinstaller --onefile cli.py
+call .venv\Scripts\pyinstaller --onefile src/launcher.py
 echo "Executable is in dist folder"
 goto :eof
 

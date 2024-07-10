@@ -1,6 +1,6 @@
 import fastapi
 
-from .constants import DEBUG
+from constants import DEBUG
 
 app = fastapi.FastAPI()
 
