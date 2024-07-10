@@ -28,9 +28,10 @@ def main():
     print("--")
     print()
 
-    time.sleep(0.5)
-
     print("Launching CLI...")
+    # Wait for the web server to start up.
+    time.sleep(0.5)
+    # Launch the CLI.
     cli.main()
 
 

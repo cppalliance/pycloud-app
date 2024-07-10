@@ -1,6 +1,7 @@
 default:
 	@echo "make init"
 	@echo "make build"
+	@echo "make server"
 	@echo "make format"
 	@echo "make lock"
 
@@ -10,6 +11,9 @@ init: create-virtualenv
 build: init
 	.venv/bin/pyinstaller --onefile cli.py
 	echo "Binary is in dist/cli"
+
+server: init
+	.venv/bin/python launcher.py
 
 format: init
 	ruff format
