@@ -1,4 +1,6 @@
-# fastapi
-# uvicorn
+fastapi
+uvicorn
 ruff
 pyInstaller
+background
+requests
