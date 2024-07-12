@@ -33,7 +33,7 @@ goto :eof
 
 :exe
 call :build
-dist\launcher
+dist\launcher.exe
 goto :eof
 
 :server
