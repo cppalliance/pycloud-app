@@ -1,6 +1,7 @@
 default:
 	@echo "make init"
 	@echo "make build"
+	@echo "make exe"
 	@echo "make server"
 	@echo "make format"
 	@echo "make lock"
@@ -18,8 +19,14 @@ exe: build
 server: init
 	.venv/bin/python launcher.py
 
+cli: init
+	.venv/bin/python src/cli.py
+
 format: init
 	ruff format
+
+clean:
+	rm -rf .venv dist build
 
 create-virtualenv:
 	@if [ ! -d .venv ]; then \
