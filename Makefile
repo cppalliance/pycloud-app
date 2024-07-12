@@ -17,7 +17,7 @@ exe: build
 	./dist/launcher
 
 server: init
-	.venv/bin/python launcher.py
+	.venv/bin/python src/launcher.py
 
 cli: init
 	.venv/bin/python src/cli.py
