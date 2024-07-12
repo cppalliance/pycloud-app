@@ -17,6 +17,9 @@ certifi==2024.7.4
     # via
     #   httpcore
     #   httpx
+    #   requests
+charset-normalizer==3.3.2
+    # via requests
 click==8.1.7
     # via
     #   typer
@@ -44,6 +47,7 @@ idna==3.7
     #   anyio
     #   email-validator
     #   httpx
+    #   requests
 jinja2==3.1.4
     # via fastapi
 macholib==1.16.3
@@ -76,6 +80,8 @@ python-multipart==0.0.9
     # via fastapi
 pyyaml==6.0.1
     # via uvicorn
+requests==2.32.3
+    # via -r requirements.in
 rich==13.7.1
     # via typer
 ruff==0.5.1
@@ -102,6 +108,8 @@ typing-extensions==4.12.2
     #   typer
 ujson==5.10.0
     # via fastapi
+urllib3==2.2.2
+    # via requests
 uvicorn==0.30.1
     # via
     #   -r requirements.in
