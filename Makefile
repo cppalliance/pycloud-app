@@ -12,6 +12,9 @@ build: init
 	.venv/bin/pyinstaller --onefile src/launcher.py
 	echo "Binary is in dist/launcher"
 
+exe: build
+	./dist/launcher
+
 server: init
 	.venv/bin/python launcher.py
 
