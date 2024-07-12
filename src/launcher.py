@@ -16,8 +16,6 @@ from api.server import run_server
 def launch_web_server():
     run_server()
 
-    time.sleep(1)
-
 
 def main():
     print("Launching web server...")
@@ -30,7 +28,7 @@ def main():
 
     print("Launching CLI...")
     # Wait for the web server to start up.
-    time.sleep(0.5)
+    time.sleep(1)
     # Launch the CLI.
     cli_main()
 

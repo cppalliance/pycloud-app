@@ -1,8 +1,7 @@
 import sys
 import requests
 
-PORT = 5042
-HOST = "localhost"
+from constants import HOST, PORT
 
 
 def fetch_message_from_api():
