@@ -1,7 +1,7 @@
 Demo EXE HTTP Service
 =====================
 
-This is a simple HTTP service that can be used to demonstrate the use of cx_Freeze to create an executable from a Python script that is a web server. The components of the service are:
+This is a simple HTTP service that can be used to demonstrate the use of PyInstaller to create an executable from a Python script that is a web server. The components of the service are:
 
 - A `cli.py` Python script that prints hello world for the user.
 - A `README.md` file that describes the service and how to use it.
